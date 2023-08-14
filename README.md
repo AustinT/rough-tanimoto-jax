@@ -1,14 +1,13 @@
-# Python Template
+# Tanimoto random features
 
-**Project description here**
-
-This is a template project so I don't need to keep setting up pre-commit.
+Contains a rough implementation of Tanimoto random features in Jax.
+For details, see <http://arxiv.org/abs/2306.14809>.
 
 ## Development
 
 ### Installation
 
-**Installation instructions here**
+Need Jax and numpy.
 
 ### Formatting
 
