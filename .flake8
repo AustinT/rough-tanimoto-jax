@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 100
+ignore =
+    # E402: E402 module level import not at top of file (since not all of our code is packaged)
+    E402
+    # E501: line too long (long lines are ok for us)
+    E501
+    # E203: whitespace before ':' (sometimes black does this)
+    E203
+    # W503: line break before binary operator (comes out of black)
+    W503
